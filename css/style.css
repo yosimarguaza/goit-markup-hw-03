@@ -1,0 +1,180 @@
+
+/* styles header */
+
+.header a:hover{
+    color: #2196F3;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+header.header {
+    height: 80px;
+    background: #ffffff;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.main-content h2,h3,h4 {
+    color:#212121;
+}
+
+.main-content p {
+    color:#757575
+}
+
+/* styles section1 */
+
+section.section1 {
+    max-width: 1600px;
+    height: 600px;
+    background: #2F303A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-family: 'Roboto';
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 696px;
+}
+
+.section1 h1:hover,button:hover{
+    text-decoration: underline;
+}
+
+.section1 button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    border: none;
+}
+
+/* styles section2 */
+
+.content-text {
+    display: flex;
+}
+
+.content-text div {
+    margin: 0 15px;
+}
+
+.content-text h4:hover,p:hover {
+    text-decoration: underline;
+}
+
+.content-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-image div {
+    display: flex;
+}
+
+.content-image h2:hover {
+    text-decoration: underline;
+}
+
+.content-image h2 {
+    margin-bottom: 50px;
+}
+
+.content-image div picture {
+    margin: 0 15px;
+}
+/* styles section3 */
+
+section.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F5F4FA;
+    padding-bottom: 94px;
+}
+
+section.section3 h2{
+    margin-bottom: 50px;
+}
+
+section.section3 div {
+    display: flex;
+}
+
+section.section3 div picture {
+    margin: 0 15px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+}
+
+section.section3 div picture h3, p {
+    margin: 10px 0;
+}
+
+section.section3 .img {
+    width: 270px;
+    height: 260px;
+}
+
+section.section3 h2:hover,h3:hover,p:hover {
+    text-decoration: underline;
+}
+/* styles footer */
+
+.footer {
+    background: #2F303A;
+    height: 252px;
+    max-width: 1600px;
+}
+
+.footer ul {
+    padding: 60px 0 0 215px;
+}
+
+.footer .logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer .logo:hover,li:hover {
+    text-decoration: underline;
+}
+.footer li {
+    color: #ffffff99;
+
+}
+
+.footer .text-direcion {
+    color: #FFFFFF
+}
