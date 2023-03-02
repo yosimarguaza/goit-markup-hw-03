@@ -1,0 +1,236 @@
+.boy {
+  background: #e5e5e5;
+  
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* styles header*/
+.header a:hover {
+  color: #2196f3;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+header.header {
+  height: 80px;
+  background: #ffffff;
+  border-bottom: 1px solid #ececec;
+  box-sizing: border-box;
+  padding: 31px 0;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+.header li a {
+  color: #212121;
+}
+/*style nav*/
+
+nav.button {
+  margin: 80px auto 50px;
+  display: flex;
+  justify-content: center;
+}
+
+nav.button button {
+  background: #f5f4fa;
+  height: 38px;
+  padding: 0 15px;
+  margin: 0 4px;
+  border: none;
+  border-radius: 4px;
+}
+
+nav.button button:hover {
+  color: white;
+  background-color: #2196f3;
+}
+
+.button li {
+  text-decoration: none;
+}
+.button li {
+  list-style: none;
+}
+
+.button ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contec-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contec-image {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.contec-image div {
+  border: 1px solid #eeeeee;
+  width: 370px;
+  padding: 0 0 20px;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
+    1px 4px 6px rgb(0 0 0 / 16%);
+}
+
+.contec-image div a {
+  display: block;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.contec-image div .h3:hover,
+.p:hover {
+  text-decoration: underline;
+}
+
+.contec-image div .h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.contec-image div .p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.contec-image .img {
+  width: 270px;
+  height: 260px;
+}
+
+.contec-image h3:hover,
+p:hover {
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.footer {
+    color: #eeeeee;
+  background: #2f303a;
+  height: 252px;
+  padding-left: 215px;
+  padding: 60px 0 47px 215px;
+  display: block;
+}
+
+
+.footer-logo.link,
+.header .logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.footer-logo:hover,
+.address a:hover {
+  text-decoration: underline;
+  color: #2196f3;
+}
+.footer li {
+  color: #ffffff99;
+}
+
+.footer ul {
+  margin-right: 70px;
+  padding: 0;
+}
+
+.direction li:hover {
+  text-decoration: underline;
+}
+
+address a {
+    text-decoration: none;
+    color: #ffffff99;
+}
+
+a.address-link {
+  color: #ffffff;
+  display: block;
+  width: 247px;
+}
+
+/*.content-inco {
+  display: flex;
+}
+
+.content-inco a {
+  margin: 0 5px;
+}
+
+.color {
+  color: #ffffff;
+}
+
+a.icono {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  background: #3b364a;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+a.icono {
+  display: flex;
+}
+
+a.twitter:hover {
+  background: rgb(94, 198, 250);
+}
+
+a.instagram:hover {
+  background: rgb(231, 30, 83);
+}
+
+a.instagram img {
+  width: 20px;
+  height: 18px;
+}
+
+a.facebook:hover {
+  background: rgb(43, 30, 231);
+}
+a.facebook img {
+  width: 40px;
+  height: 40px;
+}
+
+a.linkedin:hover {
+  background: rgb(44, 173, 238);
+  width: 40px;
+}
