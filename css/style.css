@@ -1,31 +1,54 @@
 /* styles header */
+header {
+  font-family: "Roboto", sans-serif;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
 .header a:hover {
   color: #2196f3;
 }
-.header a:active {
-  color: red;
-}
-
 .header a {
   text-decoration: none;
+  color: #212121;
 }
 
 header.header {
-  height: 80px;
-  background: #ffffff;
+  display: flex;
+  align-items: center;
+  margin: 24px 215px 20px 215px;
 }
-
+header.header nav {
+  margin-left: 42px;
+}
 .header ul {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
-li {
+header.header li {
   list-style: none;
+}
+
+header.header nav li {
+  margin: 0 10px;
+}
+
+header .stu {
+  color: #2196f3;
+}
+.link-contact {
+  margin-left: auto;
+  display: flex;
+}
+.link-contact li {
+  margin: 0 10px;
+}
+
+.link-contact a {
+  color: #757575;
+}
+header .correo {
+  color: #2196f3;
 }
 
 .main-content h2,
@@ -41,7 +64,6 @@ h4 {
 /* styles section1 */
 
 section.section1 {
-  max-width: 1600px;
   height: 600px;
   background: #2f303a;
   display: flex;
@@ -84,29 +106,27 @@ button:hover {
 
 .content-text div {
   display: flex;
+  text-align: center;
+  margin: 20px 31px;
 }
 
 .content-text div div {
   flex-direction: column;
 }
 
-.content-text div {
-  margin: 0 15px;
+.texte-main {
+  margin: 10px 100px;
 }
 
-.content-text h4:hover,
+.content-text div .content-text h4:hover,
 p:hover {
   text-decoration: underline;
 }
 
-.content-image {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 .content-image div {
   display: flex;
+  justify-content: center;
+  margin: 0px 0 30px;
 }
 
 .content-image h2:hover {
@@ -115,6 +135,7 @@ p:hover {
 
 .content-image h2 {
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .content-image div picture {
@@ -163,11 +184,14 @@ p:hover {
 .footer {
   background: #2f303a;
   height: 252px;
-  max-width: 1600px;
 }
 
 .footer ul {
   padding: 60px 0 0 215px;
+}
+
+.footer li {
+  list-style: none;
 }
 
 .footer .logo,
@@ -182,8 +206,11 @@ p:hover {
 }
 
 .footer .logo:hover,
-ul li a:hover {
+.address a:hover {
   text-decoration: underline;
+}
+.logo h2 {
+  list-style: none;
 }
 
 .text-direcion ul li a {
@@ -192,6 +219,10 @@ ul li a:hover {
 
 .text-direcion a {
   text-decoration: none;
+}
+
+.text-direcion li {
+  list-style: none;
 }
 
 .text-direcion ul li a:hover {

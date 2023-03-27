@@ -16,25 +16,48 @@ body {
 }
 
 header.header {
-  height: 80px;
-  background: #ffffff;
-  border-bottom: 1px solid #ececec;
-  box-sizing: border-box;
-  padding: 31px 0;
+  display: flex;
+  align-items: center;
+  margin: 24px 215px 20px 215px;
+}
+
+header.header nav {
+  margin-left: 42px;
 }
 
 .header ul {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0;
 }
 
 li {
   list-style: none;
 }
+
+header.header nav li {
+  margin: 0 10px;
+}
+
 .header li a {
   color: #212121;
+}
+
+.header .porta {
+  color: #2196f3;
+}
+
+.link-contact {
+  margin-left: auto;
+  display: flex;
+}
+.link-contact li {
+  margin: 0 10px;
+}
+
+.link-contact a {
+  color: #757575;
+}
+.header .correo {
+  color: #2196f3;
 }
 /*style nav*/
 
@@ -69,6 +92,9 @@ nav.button button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.main-contec {
+  margin-top: 0 0 50px 0;
 }
 
 .contec-image {
